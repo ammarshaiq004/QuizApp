@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dashboard_background_img">
+
+
+    <TextView
+        android:id="@+id/nameRollNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:background="@color/toolbar_color_trams"
+        android:gravity="center"
+        android:text="name"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/question_count_title"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/toolbar_color_trams"
+        android:gravity="center"
+        android:text="@string/_1_10"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/user_display_ques_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/question_count_title"
+        android:layout_gravity="center"
+        android:background="@drawable/play_ques_user_display"
+        android:gravity="center"
+        android:minHeight="132dp"
+        android:padding="8dp"
+        android:text="@string/display_main_queston_for_user"
+        android:textColor="@color/question_color"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/share_next_rr"
+        android:layout_below="@+id/user_display_ques_box">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <Button
+                android:id="@+id/choice_one_ques_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/drawable_select_question_border"
+                android:gravity="center"
+                android:lineSpacingExtra="8sp"
+                android:onClick="choice_One_question_Click"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="@string/question_ans_one"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                tools:ignore="RtlSymmetry" />
+
+            <Button
+                android:id="@+id/choice_two_ques_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/drawable_select_question_border"
+                android:gravity="center"
+                android:lineSpacingExtra="8sp"
+                android:onClick="choice_Two_question_Click"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="@string/question_ans_two"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                tools:ignore="RtlSymmetry" />
+
+            <Button
+                android:id="@+id/choice_three_ques_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/drawable_select_question_border"
+                android:gravity="center"
+                android:lineSpacingExtra="8sp"
+                android:onClick="choice_three_question_Click"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="@string/question_ans_three"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/choice_four_ques_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/drawable_select_question_border"
+                android:gravity="center"
+                android:lineSpacingExtra="8sp"
+                android:onClick="choice_Four_question_Click"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="@string/question_ans_four"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:id="@+id/native_ad_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/share_next_rr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="3dp">
+
+
+        <ImageView
+            android:id="@+id/question_next_IV"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:onClick="Question_Next_Click"
+            android:src="@drawable/new_exam_btn"
+            tools:ignore="RtlHardcoded" />
+
+
+    </RelativeLayout>
+</RelativeLayout>

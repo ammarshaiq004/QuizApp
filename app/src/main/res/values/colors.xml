@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="toolbar_color">#f7ffffff</color>
+    <color name="toolbar_color_trams">#3cffffff</color>
+    <color name="bluecolor">#1e5aff</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="question_color">#ff04243e</color>
+
+    <color name="grey1">#767575</color>
+    <color name="grey_200">#eeeeee</color>
+    <color name="grey_400">#bdbdbd</color>
+    <color name="grey_500">#9e9e9e</color>
+</resources>

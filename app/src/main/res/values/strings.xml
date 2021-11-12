@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Ammar Assignment</string>
+
+    <string name="weblink">https://play.google.com/store/apps/details?id=com.generalknowledge.gkhindiquiz.lucentofflinehindiquiz</string>
+    <string name="_1_10">1/10</string>
+    <string name="rating_dialog_cancel">Cancel</string>
+    <string name="rating_dialog_experience">How was your experience with us?</string>
+    <string name="rating_dialog_feedback_title">Feedback</string>
+    <string name="rating_dialog_maybe_later">Maybe later</string>
+    <string name="rating_dialog_never">Never</string>
+    <string name="rating_dialog_submit">Submit</string>
+    <string name="rating_dialog_suggestions">Suggest us what went wrong and we\'ll work on it!</string>
+    <string name="question_ans_one">List_OF_ALL_Question Ans One</string>
+    <string name="question_ans_two">List_OF_ALL_Question Ans Two</string>
+    <string name="question_ans_three">List_OF_ALL_Question Ans Three</string>
+    <string name="question_ans_four">List_OF_ALL_Question Ans Four</string>
+    <string name="display_main_queston_for_user">display main queston for user</string>
+    <string name="strng_false">False</string>
+    <string name="strng_true">True</string>
+    <string name="AoutOff_10">1/10</string>
+    <string name="total">TOTAL</string>
+</resources>
